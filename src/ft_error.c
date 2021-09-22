@@ -18,7 +18,7 @@ static void	ft_error_bis(int e)
 		perror("Initialisation before parsing failed");
 	else if (e == 2)
 		perror("Opening file failed");
-	else if (e == 3 || e ==5)
+	else if (e == 3 || e == 5)
 	{
 		ft_putstr("Map is not playable: Map must have ");
 		ft_putstr("1 exit (E), 1 starting position (P) and");
